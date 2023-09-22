@@ -1,0 +1,13 @@
+
+<div hx-get="/fileInfo" hx-trigger="load delay:200ms">
+  <div class="htmx-indicator">Loading...</div>
+</div>
+
+<style>
+  .htmx-settling img {
+    opacity: 0;
+  }
+  img {
+    transition: opacity 300ms ease-in;
+  }
+</style>
